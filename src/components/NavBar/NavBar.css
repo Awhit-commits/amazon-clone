@@ -1,0 +1,68 @@
+.navbar{
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.navbar_logo{
+    width: 100px;
+    margin: 0 20px;
+    margin-top: 18px;
+    object-fit: contain;
+    
+}
+
+.navbar_searchBoxIcon{
+    background-color: #cd9042;
+    height: 22px !important; 
+    padding: 5px;
+}
+
+.navbar_search{
+    display: flex;
+    flex: 1;
+}
+
+.navbar_searchBox{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.navbar_nav{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.navbar_link{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar_Option{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+.navbar_OptionLineOne{
+    font-size: 10px;
+}
+
+.navbar_OptionLineTwo{
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.navbar_OptionBasket{
+    display: flex;
+    align-items: center;
+}
+
+.navbar_OptionBasketCount{
+    margin: 0 10px;
+}
